@@ -1,0 +1,21 @@
+html{
+    width: 100%;
+    background-color: rgba(50,50,57,0.85);
+}
+body{
+    margin: 0em;
+    padding: 0em;
+    background: linear-gradient(to bottom, blue, rgba(50,50,57,0.85));
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body > *{
+    margin: 4% 40%;
+    vertical-align: middle;
+}
+form{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    background-color: cornflowerblue;
+    padding: 2em;
+}

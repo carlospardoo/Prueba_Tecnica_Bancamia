@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+</head>
+<!-- <script src="./js/callerRegister.js"></script> -->
+<!-- <script src="./static/js/callerRegister.js"></script> -->
+<link rel="stylesheet" type="text/css" href="../static/css/general.css">
+<script src="../static/js/callerRegister.js"></script>
+<body>
+    <h1>Registrarse</h1>
+    <form method="POST" id="frmRegister">
+        <label>Nombres: </label>
+        <input type="text" name="txtNames">
+        <br>
+        <label>Apellidos: </label>
+        <input type="text" name="txtLastNames">
+        <br>
+        <label>Tipo de Documento: </label>
+        <select name="cmbDocType">
+            <option>C.C.</option>
+            <option>C.E.</option>
+            <option>T.I.</option>
+            <option>Pasaporte</option>
+        </select>
+        <br>
+        <label>Número de Documento: </label>
+        <input type="number" name="txtDocNum">
+        <br>
+        <label>Fecha de Nacimiento: </label>
+        <input type="date" name="txtBornDate">
+        <br>
+        <label>Ciudad: </label>
+        <input type="text" name="txtCity">
+        <br>
+        <label>Teléfono: </label>
+        <input type="number" name="txtPhone">
+        <br>
+        <label>Usuario: </label>
+        <input type="text" name="txtUsername2">
+        <br>
+        <label>Contraseña: </label>
+        <input type="password" name="txtPassword2">
+        <br>
+        <input type="submit" value="Registrarse">
+        <a href="/">Volver</a>
+    </form>
+
+    <div id="message"></div>
+
+</body>
+</html>
