@@ -10,14 +10,15 @@
 <!-- <script src="./static/js/callerRegister.js"></script> -->
 <link rel="stylesheet" type="text/css" href="../static/css/general.css">
 <script src="../static/js/callerRegister.js"></script>
+<!-- <script src="../static/js/validations.js"></script> -->
 <body>
     <h1>Registrarse</h1>
     <form method="POST" id="frmRegister">
         <label>Nombres: </label>
-        <input type="text" name="txtNames">
+        <input type="text" name="txtNames" pattern="([a-z]|[A-Z]|[\s])*"> 
         <br>
         <label>Apellidos: </label>
-        <input type="text" name="txtLastNames">
+        <input type="text" name="txtLastNames" id="txtLastNames" pattern="([a-z]|[A-Z]|[\s])*">
         <br>
         <label>Tipo de Documento: </label>
         <select name="cmbDocType">
